@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hambur L & L</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <ion-icon name="grid-outline"></ion-icon>
+            </label>
+            <label class="logo">Hambur L & L</label>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/lean.kantero" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="section flex" id="hero-section">
+        <div class="text">
+            <h1 class="primary">Bienvenidos a nuestra hamburguesería</h1>
+            <p class="tertiary">Mire nuestro menu y pidanos la hamburguesa que sea de su agrado</p>
+            <a href="https://wa.me/+543772610046" target="_blank" class="btn-contact">
+                <ion-icon name="call-outline"></ion-icon> Contáctanos
+            </a>
+        </div>
+        <div class="visual">
+            <img src="Completa.png" alt="Imagen de hamburguesa">
+        </div>
+    </div>
+
+    <!-- Productos -->
+    <section class="section-meals">
+        <div class="txt">
+            <h1>Nuestros Productos</h1>
+        </div>
+        <div class="container grid grid--3-cols">
+            <!-- Hamburguesa Tortuga -->
+            <div class="meal">
+                <img src="Tortuga.png" class="meal-img" alt="Tortuga">
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--Tortuga">Tortuga</span>
+                    </div>
+                    <p class="meal-title">Hamburguesas de Verdura sin Carne</p>
+                    <ul class="meal-attributes">
+                        <li><ion-icon name="restaurant-outline"></ion-icon> Pan, Lechuga, Tomate, Condimentos a gusto.</li>
+                        <li><ion-icon name="star-outline"></ion-icon> <strong>Precio:</strong> $1800</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Hamburguesa Torrada -->
+            <div class="meal">
+                <img src="Torrada.png" class="meal-img" alt="Torrada">
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--Torrada">Torrada</span>
+                    </div>
+                    <p class="meal-title">Hamburguesa sin Carne ni Verduras</p>
+                    <ul class="meal-attributes">
+                        <li><ion-icon name="restaurant-outline"></ion-icon> Pan, Jamon, Queso, Huevo, Condimentos a gusto.</li>
+                        <li><ion-icon name="star-outline"></ion-icon> <strong>Precio:</strong> $2000</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Hamburguesa Completa -->
+            <div class="meal">
+                <img src="Completa.png" class="meal-img" alt="Completa">
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--Completa">Completa</span>
+                    </div>
+                    <p class="meal-title">Hamburguesa Completa</p>
+                    <ul class="meal-attributes">
+                        <li><ion-icon name="restaurant-outline"></ion-icon> Pan, Carne, Lechuga, Tomate, Jamon, Queso, Huevo, Condimentos a gusto.</li>
+                        <li><ion-icon name="star-outline"></ion-icon> <strong>Precio:</strong> $2200</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ion Icons Js -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
